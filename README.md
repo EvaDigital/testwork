@@ -7,35 +7,13 @@ git clone
 ```bash
 cd testFR-root
 ```
-Создать виртуальное окружение Python:
-```bash
-python3 -m venv env
-```
 
-И активировать его:
-```bash
-source env/bin/activate
-```
 
-Установить зависимости из файла **requirements.txt**:
-```bash
-pip install -r requirements.txt
-```
+# Выполнить следующую команду:
 
-# Выполнить следующие команды:
-
-* Выполнить миграции
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
-* Создать суперпльзователя
-```bash
-python manage.py createsuperuser
-```
 * Команда для запуска приложения
 ```bash
-python manage.py runserver
+docker-compose -f docker-compose.yml up --build
 ```
 * Приложение будет доступно по адресу: http://0.0.0.0:8000/
 
