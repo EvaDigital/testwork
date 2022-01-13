@@ -1,11 +1,11 @@
 Склонируйте репозиторий с помощью:
 ```bash
-git clone 
+git clone https://github.com/EvaDigital/testwork.git
 ```
 
 Перейдитке в папку:
 ```bash
-cd testFR-root
+cd testwork
 ```
 
 
