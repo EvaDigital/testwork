@@ -19,7 +19,7 @@ docker-compose -f docker-compose.yml up --build
 
 
 
-### Документация API
+# Документация API
 ### Чтобы получить токен пользователя: 
 * Request method: GET
 * URL: http://0.0.0.0:8000/api/login/
